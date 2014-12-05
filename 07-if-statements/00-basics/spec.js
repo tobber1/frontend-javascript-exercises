@@ -1,6 +1,6 @@
 var expect    = require("chai").expect;
 var challenge = require("./challenge.js");
-
+/*
 describe("favoriteNumber", function() {
   it("should be defined", function() {
     expect(challenge.favoriteNumber).to.exist;
@@ -64,7 +64,7 @@ describe("checkLock", function() {
     expect(challenge.checkLock(5, 2, 45, 9)).to.eql("incorrect");
   });
 });
-
+*/
 describe("canIGet", function() {
   it("should be defined", function() {
     expect(challenge.canIGet).to.exist;
